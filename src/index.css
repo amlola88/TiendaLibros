@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+  
+   
+}
+
+.App
+{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.card-Usuario{
+    display: flex;
+    flex-direction: column;
+     margin: 20px;  
+}
+
+.card-Usuario img{
+    width: 20%;
+
+}
+
+.card-Usuario p{
+     justify-content: center;
+}
+
+.card-Libros{
+    display: flex;
+    flex-direction: column;
+     margin: 20px;  
+}
+
+.card-Libros img{
+    width: 20%;
+
+}
+
+.card-Libros p{
+     justify-content: center;
+}
+
+.card-Editoriales{
+    display: flex;
+    flex-direction: column;
+     margin: 20px;  
+}
+
+.card-Editoriales img{
+    width: 20%;
+
+}
+
+.card-Editoriales p{
+     justify-content: center;
+}
